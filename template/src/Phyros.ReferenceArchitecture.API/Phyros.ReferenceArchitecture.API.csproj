@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="SimpleInjector" Version="5.3.1" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore" Version="5.3.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc" Version="5.3.0" />
+    <PackageReference Include="SimpleInjector.Integration.Web.Mvc" Version="5.0.0" />
+    <PackageReference Include="SimpleInjector.Integration.WebApi" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Composition\Phyros.ReferenceArchitecture.Composition.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.DTO\Phyros.ReferenceArchitecture.DTO.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Managers\Phyros.ReferenceArchitecture.Managers.csproj" />
+  </ItemGroup>
+
+
+</Project>

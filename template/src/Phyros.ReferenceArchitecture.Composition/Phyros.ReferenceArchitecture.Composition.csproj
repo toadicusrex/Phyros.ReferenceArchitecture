@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="SimpleInjector" Version="5.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.DTO\Phyros.ReferenceArchitecture.DTO.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Engines.Default\Phyros.ReferenceArchitecture.Engines.Default.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Infrastructure.SatelliteConnectivity\Phyros.ReferenceArchitecture.Infrastructure.SatelliteConnectivity.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Managers.Default\Phyros.ReferenceArchitecture.Managers.Default.csproj" />
+  </ItemGroup>
+
+</Project>

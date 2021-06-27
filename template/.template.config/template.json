@@ -1,0 +1,17 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Todd Bennion",
+	"classifications": [
+		"Common",
+		"Console"
+	],
+	"identity": "Phyros.ReferenceMicroservice",
+	"name": "Reference templates: microservice",
+	"shortName": "reference.microservice",
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"sourceName": "Phyros.ReferenceArchitecture",
+	"preferNameDirectory": true
+}

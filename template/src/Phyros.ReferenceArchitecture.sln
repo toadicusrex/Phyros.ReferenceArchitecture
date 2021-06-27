@@ -1,0 +1,126 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{DBD50A92-600F-4F6F-940E-BA7835601C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Managers", "2. Managers", "{A88F0F5C-C84F-4444-98F8-FF4E9FDFFB15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Engines", "3. Engines", "{7958889E-117A-429F-9F7B-819B4D5A63FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure", "4. Infrastructure", "{75BC291F-675A-437B-9A48-857F04526A7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Models", "5. Models", "{D39226E6-05D6-44E9-A5F4-7C064CEA9946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{8C202D72-DFA5-4642-B5D4-BF0104AF4097}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composition", "Composition", "{54125D69-1E33-4FC5-B83C-012087E46811}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.API", "Phyros.ReferenceArchitecture.API\Phyros.ReferenceArchitecture.API.csproj", "{0346B5ED-85A6-41EF-8D84-10D62FC6808E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.API.Tests", "Phyros.ReferenceArchitecture.API.Tests\Phyros.ReferenceArchitecture.API.Tests.csproj", "{B63BCFB9-3F22-4286-A7E7-0633C3FC68E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.ApplicationCoreTests", "Phyros.ReferenceArchitecture.ApplicationCoreTests\Phyros.ReferenceArchitecture.ApplicationCoreTests.csproj", "{73E922C4-5C09-4BAC-98AC-825602BF5AF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Managers", "Phyros.ReferenceArchitecture.Managers\Phyros.ReferenceArchitecture.Managers.csproj", "{A7086448-D514-4128-8D48-DF19D807F852}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Managers.Default", "Phyros.ReferenceArchitecture.Managers.Default\Phyros.ReferenceArchitecture.Managers.Default.csproj", "{C9873E39-99EB-4F7D-9DA6-DAE992E30678}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Engines", "Phyros.ReferenceArchitecture.Engines\Phyros.ReferenceArchitecture.Engines.csproj", "{57052F86-129D-47C9-9583-8C7FBC58BFD9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Engines.Default", "Phyros.ReferenceArchitecture.Engines.Default\Phyros.ReferenceArchitecture.Engines.Default.csproj", "{58418A02-2568-40CD-95FB-26C760243EE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Infrastructure", "Phyros.ReferenceArchitecture.Infrastructure\Phyros.ReferenceArchitecture.Infrastructure.csproj", "{B3D944EF-52DE-4373-9BAE-51CBE555D6FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Infrastructure.SatelliteConnectivity", "Phyros.ReferenceArchitecture.Infrastructure.SatelliteConnectivity\Phyros.ReferenceArchitecture.Infrastructure.SatelliteConnectivity.csproj", "{62C77277-EE95-4A46-9F93-58C0CACD5E1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.DomainModels", "Phyros.ReferenceArchitecture.DomainModels\Phyros.ReferenceArchitecture.DomainModels.csproj", "{358DF6EF-36D6-4E0E-8160-FB9020064E10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.Composition", "Phyros.ReferenceArchitecture.Composition\Phyros.ReferenceArchitecture.Composition.csproj", "{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.DTO", "Phyros.ReferenceArchitecture.DTO\Phyros.ReferenceArchitecture.DTO.csproj", "{78E6C057-1693-461C-A5DD-779686E56E88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.ServiceDiagnostics", "Phyros.ReferenceArchitecture.ServiceDiagnostics\Phyros.ReferenceArchitecture.ServiceDiagnostics.csproj", "{BD06930B-6281-4DBC-A854-773744988F7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0346B5ED-85A6-41EF-8D84-10D62FC6808E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0346B5ED-85A6-41EF-8D84-10D62FC6808E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0346B5ED-85A6-41EF-8D84-10D62FC6808E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0346B5ED-85A6-41EF-8D84-10D62FC6808E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63BCFB9-3F22-4286-A7E7-0633C3FC68E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63BCFB9-3F22-4286-A7E7-0633C3FC68E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63BCFB9-3F22-4286-A7E7-0633C3FC68E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63BCFB9-3F22-4286-A7E7-0633C3FC68E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E922C4-5C09-4BAC-98AC-825602BF5AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E922C4-5C09-4BAC-98AC-825602BF5AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E922C4-5C09-4BAC-98AC-825602BF5AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E922C4-5C09-4BAC-98AC-825602BF5AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7086448-D514-4128-8D48-DF19D807F852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7086448-D514-4128-8D48-DF19D807F852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7086448-D514-4128-8D48-DF19D807F852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7086448-D514-4128-8D48-DF19D807F852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9873E39-99EB-4F7D-9DA6-DAE992E30678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9873E39-99EB-4F7D-9DA6-DAE992E30678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9873E39-99EB-4F7D-9DA6-DAE992E30678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9873E39-99EB-4F7D-9DA6-DAE992E30678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57052F86-129D-47C9-9583-8C7FBC58BFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57052F86-129D-47C9-9583-8C7FBC58BFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57052F86-129D-47C9-9583-8C7FBC58BFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57052F86-129D-47C9-9583-8C7FBC58BFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58418A02-2568-40CD-95FB-26C760243EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58418A02-2568-40CD-95FB-26C760243EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58418A02-2568-40CD-95FB-26C760243EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58418A02-2568-40CD-95FB-26C760243EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D944EF-52DE-4373-9BAE-51CBE555D6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D944EF-52DE-4373-9BAE-51CBE555D6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D944EF-52DE-4373-9BAE-51CBE555D6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D944EF-52DE-4373-9BAE-51CBE555D6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C77277-EE95-4A46-9F93-58C0CACD5E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C77277-EE95-4A46-9F93-58C0CACD5E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C77277-EE95-4A46-9F93-58C0CACD5E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C77277-EE95-4A46-9F93-58C0CACD5E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{358DF6EF-36D6-4E0E-8160-FB9020064E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358DF6EF-36D6-4E0E-8160-FB9020064E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358DF6EF-36D6-4E0E-8160-FB9020064E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358DF6EF-36D6-4E0E-8160-FB9020064E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E6C057-1693-461C-A5DD-779686E56E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E6C057-1693-461C-A5DD-779686E56E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E6C057-1693-461C-A5DD-779686E56E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E6C057-1693-461C-A5DD-779686E56E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD06930B-6281-4DBC-A854-773744988F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD06930B-6281-4DBC-A854-773744988F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD06930B-6281-4DBC-A854-773744988F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD06930B-6281-4DBC-A854-773744988F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0346B5ED-85A6-41EF-8D84-10D62FC6808E} = {DBD50A92-600F-4F6F-940E-BA7835601C83}
+		{B63BCFB9-3F22-4286-A7E7-0633C3FC68E6} = {DBD50A92-600F-4F6F-940E-BA7835601C83}
+		{73E922C4-5C09-4BAC-98AC-825602BF5AF0} = {54125D69-1E33-4FC5-B83C-012087E46811}
+		{A7086448-D514-4128-8D48-DF19D807F852} = {A88F0F5C-C84F-4444-98F8-FF4E9FDFFB15}
+		{C9873E39-99EB-4F7D-9DA6-DAE992E30678} = {A88F0F5C-C84F-4444-98F8-FF4E9FDFFB15}
+		{57052F86-129D-47C9-9583-8C7FBC58BFD9} = {7958889E-117A-429F-9F7B-819B4D5A63FE}
+		{58418A02-2568-40CD-95FB-26C760243EE9} = {7958889E-117A-429F-9F7B-819B4D5A63FE}
+		{B3D944EF-52DE-4373-9BAE-51CBE555D6FB} = {75BC291F-675A-437B-9A48-857F04526A7D}
+		{62C77277-EE95-4A46-9F93-58C0CACD5E1F} = {75BC291F-675A-437B-9A48-857F04526A7D}
+		{358DF6EF-36D6-4E0E-8160-FB9020064E10} = {D39226E6-05D6-44E9-A5F4-7C064CEA9946}
+		{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF} = {54125D69-1E33-4FC5-B83C-012087E46811}
+		{78E6C057-1693-461C-A5DD-779686E56E88} = {DBD50A92-600F-4F6F-940E-BA7835601C83}
+		{BD06930B-6281-4DBC-A854-773744988F7A} = {8C202D72-DFA5-4642-B5D4-BF0104AF4097}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58DE1BC2-3EFE-4FBB-AE6C-05A3BF6DD75B}
+	EndGlobalSection
+EndGlobal

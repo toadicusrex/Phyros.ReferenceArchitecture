@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Engines\Phyros.ReferenceArchitecture.Engines.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Infrastructure\Phyros.ReferenceArchitecture.Infrastructure.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Managers\Phyros.ReferenceArchitecture.Managers.csproj" />
+  </ItemGroup>
+
+</Project>
