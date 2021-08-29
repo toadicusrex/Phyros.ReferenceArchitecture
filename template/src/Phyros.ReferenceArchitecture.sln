@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitectur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Phyros.ReferenceArchitecture.ServiceDiagnostics", "Phyros.ReferenceArchitecture.ServiceDiagnostics\Phyros.ReferenceArchitecture.ServiceDiagnostics.csproj", "{BD06930B-6281-4DBC-A854-773744988F7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phyros.ReferenceArchitecture.Infrastructure.InMemoryDatabase", "Phyros.ReferenceArchitecture.Infrastructure.InMemoryDatabase\Phyros.ReferenceArchitecture.Infrastructure.InMemoryDatabase.csproj", "{F0EBCB9F-DD81-402D-B9CE-1FB542940A10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{BD06930B-6281-4DBC-A854-773744988F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD06930B-6281-4DBC-A854-773744988F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD06930B-6281-4DBC-A854-773744988F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0EBCB9F-DD81-402D-B9CE-1FB542940A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0EBCB9F-DD81-402D-B9CE-1FB542940A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0EBCB9F-DD81-402D-B9CE-1FB542940A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0EBCB9F-DD81-402D-B9CE-1FB542940A10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{8520D7B7-51AC-45E1-98F5-E48BD2B14FAF} = {54125D69-1E33-4FC5-B83C-012087E46811}
 		{78E6C057-1693-461C-A5DD-779686E56E88} = {DBD50A92-600F-4F6F-940E-BA7835601C83}
 		{BD06930B-6281-4DBC-A854-773744988F7A} = {8C202D72-DFA5-4642-B5D4-BF0104AF4097}
+		{F0EBCB9F-DD81-402D-B9CE-1FB542940A10} = {75BC291F-675A-437B-9A48-857F04526A7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {58DE1BC2-3EFE-4FBB-AE6C-05A3BF6DD75B}

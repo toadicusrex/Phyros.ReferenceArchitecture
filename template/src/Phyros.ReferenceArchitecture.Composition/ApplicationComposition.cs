@@ -20,9 +20,12 @@ namespace Phyros.ReferenceArchitecture.Composition
 		{
 			JsonFormatterConfig.ConfigureDefaultJsonFormatting(new List<JsonConverter>());
 			Container.ConfigureAutomapper(automapperProfiles);
+
 			Container.Register<IWeatherForecastManager, WeatherForecastManager>();
 			Container.Register<IWeatherForecastCalculator, WeatherForecastCalculator>();
 			Container.Register<IWeatherDataRepository, SatelliteWeatherDataRepository>();
+
+			Container.Register<IShoppingCartManager, ShoppingCartManager>();
 
 			// diagnostics providers
 			Container.Collection.Register<IServiceDiagnosticsProvider>(AppDomain.CurrentDomain.GetAssemblies());

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.DomainModels\Phyros.ReferenceArchitecture.DomainModels.csproj" />
+    <ProjectReference Include="..\Phyros.ReferenceArchitecture.Infrastructure\Phyros.ReferenceArchitecture.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
